@@ -1,145 +1,115 @@
 🌦️ Weather Dashboard
 
-A modern, responsive Weather Dashboard that shows real-time weather, hourly temperature chart, 5-day forecast, air quality, UV index, wind direction, voice search, and dynamic weather-based backgrounds with sound effects.
+A modern, fully-responsive Weather Dashboard that displays real-time weather, hourly temperature trends, a 5-day forecast, AQI, UV index, wind direction, voice search, dynamic backgrounds, and weather-based sound effects.
+
+This project delivers a polished and interactive weather experience using HTML, CSS, JavaScript, Chart.js, and live APIs from OpenWeather, Open-Meteo, and GeoDB Cities.
+
+🔗 Live Demo
+
+🚀 https://weather-dashboard-murex-rho.vercel.app/
+
+🖼️ Screenshot
+
+🎥 Live Demo (Video Preview)
+
+https://github-production-user-asset-6210df.s3.amazonaws.com/189539476/517343050-8b0f7164-d262-4def-aa55-95938c8a69a2.mp4
 
 🚀 Features
-
 🔍 Smart Search
 
+Search by city
 
--Search any city
+Auto-suggestions (GeoDB API)
 
+Voice search (Web Speech API)
 
--Auto-suggestions (GeoDB API)
+Press Enter or click Search
 
+🌤 Real-Time Weather
 
--Voice search 🎤
+Temperature, description, high/low
 
+Humidity, pressure, visibility
 
--Press Enter or click Search
+Weather icons
 
+Dynamic weather-based background
 
-🌤 Real-Time Weather Card
-
-
--Temperature + description
-
-
--High/Low
-
-
--Humidity, pressure, visibility
-
-
--Weather icons
-
-
--Dynamic background changes based on weather
-
-
--Weather-based sound effects
-
+Weather sound effects (rain, thunder, wind, etc.)
 
 📊 Hourly Temperature Chart
 
+24-hour temperature trend
 
--Next 24 hours
+Animated Chart.js line graph
 
-
--Smooth responsive line chart via Chart.js
-
+Fully responsive
 
 📅 5-Day Forecast
 
+Auto-generated from 3-hour interval data
 
--Auto-generated from 3-hour interval data
+Max/Min temperatures
 
+Weather icons
 
--Scrollable design
-
-
--Max/Min temperatures + icons
-
+Scrollable on mobile
 
 🌫 Air Quality Index (AQI)
 
+AQI value (Good → Very Poor)
 
--AQI value (Good → Very Poor)
-
-
--Animated semicircle gauge with needle
-
+Color-coded gauge with rotating needle
 
 🌡 UV Index
 
+UV intensity (Low → Extreme)
 
--UV value + category (Low → Extreme)
-
+Real-time data from Open-Meteo API
 
 🌬 Wind Compass
 
+Animated rotating arrow
 
--Rotating arrow based on wind direction
+Wind speed & gust info
 
+🌓 Light / Dark Mode
 
--Speed + gusts
+iPhone-style slider toggle
 
+Saves preference in localStorage
 
-🌓 Light/Dark Mode
+🌡 °C / °F Unit Switching
 
+Instant unit switch
 
--iPhone-style toggle
+Saves setting
 
-
--Saves theme in localStorage
-
-
-🌡 Unit Switch
-
-
--°C / °F toggle
-
-
--Saves preference
-
-
--Auto-refreshes data
-
+Auto-refreshes weather data
 
 📍 Auto Location
 
+Uses geolocation to load local weather
 
--Detects your location (with permission)
+Falls back to Hyderabad if denied
 
+🛠️ Tech Stack
 
--Defaults to Hyderabad otherwise
+HTML5, CSS3, JavaScript
 
+Chart.js
 
+OpenWeather API
 
-🧑‍💻 Tech Stack
+Open-Meteo API
 
+GeoDB Cities API
 
--HTML, CSS, JavaScript
+LocalStorage
 
+Web Speech API
 
--Chart.js
-
-
--OpenWeather API
-
-
--Open-Meteo API
-
-
--GeoDB Cities API
-
-
--LocalStorage
-
-
--Web Speech API
-
-
+Vercel Deployment
 
 📂 Project Structure
 WeatherDashboard/
@@ -154,32 +124,39 @@ WeatherDashboard/
       ├── thunder.mp3
       ├── wind.mp3
 
-
-🔧 Setup Instructions
-
-
-Clone repo
-
+⚙️ Setup Instructions
+1️⃣ Clone the Repository
 git clone https://github.com/Sahithi-a13245/Weather-Dashboard.git
+cd Weather-Dashboard
+
+2️⃣ Add API Key
+
+Replace your API key inside script.js:
+
+const API_KEY = "YOUR_API_KEY_HERE";
+
+3️⃣ Run Locally
+
+Open:
+
+index.html
 
 
+or use VS Code Live Server.
 
-Replace your OpenWeather API key in script.js
-const API_KEY = "YOUR_API_KEY";
+🔮 Future Improvements
 
+Radar/precipitation map
 
+Weather alerts
 
-Open index.html in your browser
-or use VS Code Live Server
+Weekly temperature chart
 
-🔮 Future Enhancements
+Favorite cities
 
-Radar map
+Installable PWA (Add to Home Screen)
 
-Weekly chart
+👩‍💻 Author
 
-Alerts
-
-Favorites list
-
-Installable PWA version
+Aditya Sahithi
+A modern and interactive Weather Dashboard using real-time APIs and beautiful UI elements.
