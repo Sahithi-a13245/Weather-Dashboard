@@ -160,7 +160,7 @@ WeatherDashboard/
 
 Clone repo
 
-git clone https://github.com/Sahithi-a13245/Weather-Dashboard-.git
+git clone https://github.com/Sahithi-a13245/Weather-Dashboard.git
 
 
 
