@@ -4,17 +4,17 @@ A modern, fully-responsive Weather Dashboard that displays real-time weather, ho
 
 This project delivers a polished and interactive weather experience using HTML, CSS, JavaScript, Chart.js, and live APIs from OpenWeather, Open-Meteo, and GeoDB Cities.
 
-🔗 Live Demo
+# 🔗 Live Demo
 
 🚀 https://weather-dashboard-murex-rho.vercel.app/
 
-🖼️ Screenshot
+# 🖼️ Screenshot
 
-🎥 Live Demo (Video Preview)
+# 🎥 Live Demo (Video Preview)
 
 https://github-production-user-asset-6210df.s3.amazonaws.com/189539476/517343050-8b0f7164-d262-4def-aa55-95938c8a69a2.mp4
 
-🚀 Features
+# 🚀 Features
 🔍 Smart Search
 
 Search by city
@@ -25,7 +25,7 @@ Voice search (Web Speech API)
 
 Press Enter or click Search
 
-🌤 Real-Time Weather
+# 🌤 Real-Time Weather
 
 Temperature, description, high/low
 
@@ -35,7 +35,7 @@ Weather icons
 
 Weather sound effects (rain, thunder, wind, etc.)
 
-📊 Hourly Temperature Chart
+# 📊 Hourly Temperature Chart
 
 24-hour temperature trend
 
@@ -43,7 +43,7 @@ Animated Chart.js line graph
 
 Fully responsive
 
-📅 5-Day Forecast
+# 📅 5-Day Forecast
 
 Auto-generated from 3-hour interval data
 
@@ -53,31 +53,31 @@ Weather icons
 
 Scrollable on mobile
 
-🌫 Air Quality Index (AQI)
+# 🌫 Air Quality Index (AQI)
 
 AQI value (Good → Very Poor)
 
 Color-coded gauge with rotating needle
 
-🌡 UV Index
+# 🌡 UV Index
 
 UV intensity (Low → Extreme)
 
 Real-time data from Open-Meteo API
 
-🌬 Wind Compass
+# 🌬 Wind Compass
 
 Animated rotating arrow
 
 Wind speed & gust info
 
-🌓 Light / Dark Mode
+# 🌓 Light / Dark Mode
 
 iPhone-style slider toggle
 
 Saves preference in localStorage
 
-🌡 °C / °F Unit Switching
+# 🌡 °C / °F Unit Switching
 
 Instant unit switch
 
@@ -85,13 +85,13 @@ Saves setting
 
 Auto-refreshes weather data
 
-📍 Auto Location
+# 📍 Auto Location
 
 Uses geolocation to load local weather
 
 Falls back to Hyderabad if denied
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 HTML5, CSS3, JavaScript
 
@@ -109,7 +109,8 @@ Web Speech API
 
 Vercel Deployment
 
-📂 Project Structure
+# 📂 Project Structure
+
 WeatherDashboard/
 │── index.html
 │── style.css
@@ -122,7 +123,8 @@ WeatherDashboard/
       ├── thunder.mp3
       ├── wind.mp3
 
-⚙️ Setup Instructions
+# ⚙️ Setup Instructions
+
 1️⃣ Clone the Repository
 git clone https://github.com/Sahithi-a13245/Weather-Dashboard.git
 cd Weather-Dashboard
@@ -142,7 +144,7 @@ index.html
 
 or use VS Code Live Server.
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 
 Radar/precipitation map
 
