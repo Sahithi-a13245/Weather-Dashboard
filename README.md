@@ -3,140 +3,141 @@
 A modern, responsive Weather Dashboard that shows real-time weather, hourly temperature chart, 5-day forecast, air quality, UV index, wind direction, voice search, and dynamic weather-based backgrounds with sound effects.
 
 🚀 Features
+
 🔍 Smart Search
 
 
-Search any city
+-Search any city
 
 
-Auto-suggestions (GeoDB API)
+-Auto-suggestions (GeoDB API)
 
 
-Voice search 🎤
+-Voice search 🎤
 
 
-Press Enter or click Search
+-Press Enter or click Search
 
 
 🌤 Real-Time Weather Card
 
 
-Temperature + description
+-Temperature + description
 
 
-High/Low
+-High/Low
 
 
-Humidity, pressure, visibility
+-Humidity, pressure, visibility
 
 
-Weather icons
+-Weather icons
 
 
-Dynamic background changes based on weather
+-Dynamic background changes based on weather
 
 
-Weather-based sound effects
+-Weather-based sound effects
 
 
 📊 Hourly Temperature Chart
 
 
-Next 24 hours
+-Next 24 hours
 
 
-Smooth responsive line chart via Chart.js
+-Smooth responsive line chart via Chart.js
 
 
 📅 5-Day Forecast
 
 
-Auto-generated from 3-hour interval data
+-Auto-generated from 3-hour interval data
 
 
-Scrollable design
+-Scrollable design
 
 
-Max/Min temperatures + icons
+-Max/Min temperatures + icons
 
 
 🌫 Air Quality Index (AQI)
 
 
-AQI value (Good → Very Poor)
+-AQI value (Good → Very Poor)
 
 
-Animated semicircle gauge with needle
+-Animated semicircle gauge with needle
 
 
 🌡 UV Index
 
 
-UV value + category (Low → Extreme)
+-UV value + category (Low → Extreme)
 
 
 🌬 Wind Compass
 
 
-Rotating arrow based on wind direction
+-Rotating arrow based on wind direction
 
 
-Speed + gusts
+-Speed + gusts
 
 
 🌓 Light/Dark Mode
 
 
-iPhone-style toggle
+-iPhone-style toggle
 
 
-Saves theme in localStorage
+-Saves theme in localStorage
 
 
 🌡 Unit Switch
 
 
-°C / °F toggle
+-°C / °F toggle
 
 
-Saves preference
+-Saves preference
 
 
-Auto-refreshes data
+-Auto-refreshes data
 
 
 📍 Auto Location
 
 
-Detects your location (with permission)
+-Detects your location (with permission)
 
 
-Defaults to Hyderabad otherwise
+-Defaults to Hyderabad otherwise
 
 
 
 🧑‍💻 Tech Stack
 
 
-HTML, CSS, JavaScript
+-HTML, CSS, JavaScript
 
 
-Chart.js
+-Chart.js
 
 
-OpenWeather API
+-OpenWeather API
 
 
-Open-Meteo API
+-Open-Meteo API
 
 
-GeoDB Cities API
+-GeoDB Cities API
 
 
-LocalStorage
+-LocalStorage
 
 
-Web Speech API
+-Web Speech API
 
 
 
@@ -158,6 +159,7 @@ WeatherDashboard/
 
 
 Clone repo
+
 git clone https://github.com/Sahithi-a13245/Weather-Dashboard-.git
 
 
