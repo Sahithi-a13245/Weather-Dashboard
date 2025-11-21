@@ -1,6 +1,6 @@
 🌦️ Weather Dashboard
 
-A modern, fully-responsive Weather Dashboard that displays real-time weather, hourly temperature trends, a 5-day forecast, AQI, UV index, wind direction, voice search, dynamic backgrounds, and weather-based sound effects.
+A modern, fully-responsive Weather Dashboard that displays real-time weather, hourly temperature trends, a 5-day forecast, AQI, UV index, wind direction, voice search, and weather-based sound effects.
 
 This project delivers a polished and interactive weather experience using HTML, CSS, JavaScript, Chart.js, and live APIs from OpenWeather, Open-Meteo, and GeoDB Cities.
 
@@ -32,8 +32,6 @@ Temperature, description, high/low
 Humidity, pressure, visibility
 
 Weather icons
-
-Dynamic weather-based background
 
 Weather sound effects (rain, thunder, wind, etc.)
 
