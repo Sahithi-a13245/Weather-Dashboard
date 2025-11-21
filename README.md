@@ -1,4 +1,4 @@
-🌦️ Weather Dashboard
+# 🌦️ Weather Dashboard
 
 A modern, fully-responsive Weather Dashboard that displays real-time weather, hourly temperature trends, a 5-day forecast, AQI, UV index, wind direction, voice search, and weather-based sound effects.
 
